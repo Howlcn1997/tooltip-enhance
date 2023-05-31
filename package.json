@@ -1,7 +1,7 @@
 {
-  "name": "tooltip.js",
+  "name": "tooltip-enhance",
   "version": "1.6.1",
-  "description": "Tooltip manager",
+  "description": "Tooltip fork from github.com/radubrehar/tooltip",
   "main": "src/index.js",
   "scripts": {
     "test": "make",
