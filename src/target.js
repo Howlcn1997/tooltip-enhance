@@ -52,7 +52,7 @@ module.exports = function (config) {
       constrain: true,
     });
 
-    el.className = `el.className ${el.className}--${res}`;
+    el.className = `${config.className} ${config.className}--${res}`;
 
     var scrollTop = document.body.scrollTop || 0;
     var scrollLeft = document.body.scrollLeft || 0;
